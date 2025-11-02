@@ -1,0 +1,60 @@
+  schema:
+    fields:
+    - name: pit
+      type: string
+    - name: pi_pp
+      type: integer
+    - name: plano_orcam
+      type: string
+    - name: cliente
+      type: string
+    - name: campanha_nome
+      type: string
+    - name: campanha_codigo
+      type: integer
+    - name: campanha_nome_agencias
+      type: string
+    - name: empenho_abertura_agencias
+      type: string
+    - name: num_empenho_empenho
+      type: integer
+    - name: ano_empenho
+      type: integer
+    - name: veiculo_fornecedor
+      type: string
+    - name: cnpj
+      type: string
+    - name: meio
+      type: string
+    - name: servico_especie
+      type: string
+    - name: n_fat
+      type: integer
+    - name: n_nfe
+      type: string
+    - name: emissao_fat
+      type: date
+    - name: competencia
+      type: date
+    - name: vencto
+      type: date
+    - name: vlr_bruto
+      type: number
+    - name: vlr_liquido
+      type: number
+    - name: vlr_receita
+      type: number
+    - name: data_rec
+      type: date
+    - name: empresa
+      type: string
+    - name: num_contrato
+      type: integer
+    - name: uo_cod
+      type: integer
+    - name: uo_sigla
+      type: string
+    - name: ano
+      type: integer
+    - name: campanha_codigo_created
+      type: integer

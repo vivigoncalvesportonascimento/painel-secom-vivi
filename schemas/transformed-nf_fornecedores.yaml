@@ -1,0 +1,56 @@
+  schema:
+    fields:
+    - name: id_nota_fiscal
+      type: integer
+    - name: num_nota_fiscal
+      type: string
+    - name: empresa_contrato
+      type: string
+    - name: data_entrada_nf
+      type: string
+    - name: data_emissao_nf
+      type: string
+    - name: num_nf_fornecedor
+      type: string
+    - name: fornecedor_nome
+      type: string
+    - name: fornecedor_cnpj
+      type: string
+    - name: data_emissao_nf_fornecedor
+      type: string
+    - name: veiculo_midia
+      type: string
+    - name: num_processo_sei
+      type: string
+    - name: num_documento
+      type: any
+    - name: data_autorizacao_veiculacao
+      type: string
+    - name: data_inicio_veiculacao
+      type: string
+    - name: data_termino_veiculacao
+      type: string
+    - name: municipio_abrangencia
+      type: string
+    - name: item
+      type: string
+    - name: vlr_nf_agencia
+      type: string
+    - name: vlr_desconto
+      type: string
+    - name: vlr_issqn
+      type: string
+    - name: vlr_inss
+      type: string
+    - name: vlr_imposto_renda
+      type: string
+    - name: data_ordem_pgto
+      type: string
+    - name: data_limite_repasse
+      type: string
+    - name: data_pgto_agencia_fornecedor
+      type: string
+    - name: num_contrato
+      type: integer
+    - name: empresa
+      type: string

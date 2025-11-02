@@ -1,0 +1,50 @@
+  schema:
+    fields:
+    - name: empresa_contrato
+      type: string
+    - name: campanha_nome
+      type: string
+    - name: campanha_codigo
+      type: any
+    - name: campanha_codigo_created
+      type: integer
+    - name: orgao_sigla_nome
+      type: string
+    - name: campanha_tipo
+      type: string
+    - name: cancelada
+      type: string
+    - name: num_empenho
+      type: integer
+    - name: ano
+      type: integer
+    - name: tipo_operacao
+      type: string
+    - name: numero_processo_sei
+      type: string
+    - name: historico
+      type: any
+    - name: vlr_empenhado
+      type: string
+    - name: data_operacao
+      type: string
+    - name: vlr_liquidado
+      type: string
+    - name: vlr_pago
+      type: string
+    - name: num_contrato
+      type: integer
+    - name: empresa
+      type: string
+    - name: uo_sigla
+      type: string
+    - name: orgao_nome
+      type: string
+    - name: uo_cod
+      type: integer
+    - name: chave_execucao
+      type: string
+    - name: vlr_saldo_empenho
+      type: string
+    - name: data_operacao_abertura
+      type: string
