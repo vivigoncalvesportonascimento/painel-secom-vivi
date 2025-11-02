@@ -1,0 +1,600 @@
+{
+  "name": "painel-secom-vivi",
+  "title": "Painel SECOM - Dados transformados",
+  "description": "Pacote de dados contendo os CSVs transformados do projeto Painel SECOM (repositório vivigoncalvesportonascimento/painel-secom-vivi).",
+  "homepage": "https://github.com/vivigoncalvesportonascimento/painel-secom-vivi",
+  "resources": [
+    {
+      "name": "transformed_empenhos",
+      "type": "table",
+      "path": "data/transformed_empenhos.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "csv": {
+          "delimiter": ";"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "empresa_contrato",
+            "type": "string"
+          },
+          {
+            "name": "campanha_nome",
+            "type": "string"
+          },
+          {
+            "name": "campanha_codigo",
+            "type": "any"
+          },
+          {
+            "name": "campanha_codigo_created",
+            "type": "integer"
+          },
+          {
+            "name": "orgao_sigla_nome",
+            "type": "string"
+          },
+          {
+            "name": "campanha_tipo",
+            "type": "string"
+          },
+          {
+            "name": "cancelada",
+            "type": "string"
+          },
+          {
+            "name": "num_empenho",
+            "type": "integer"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "tipo_operacao",
+            "type": "string"
+          },
+          {
+            "name": "numero_processo_sei",
+            "type": "string"
+          },
+          {
+            "name": "historico",
+            "type": "any"
+          },
+          {
+            "name": "vlr_empenhado",
+            "type": "string"
+          },
+          {
+            "name": "data_operacao",
+            "type": "string"
+          },
+          {
+            "name": "vlr_liquidado",
+            "type": "string"
+          },
+          {
+            "name": "vlr_pago",
+            "type": "string"
+          },
+          {
+            "name": "num_contrato",
+            "type": "integer"
+          },
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "uo_sigla",
+            "type": "string"
+          },
+          {
+            "name": "orgao_nome",
+            "type": "string"
+          },
+          {
+            "name": "uo_cod",
+            "type": "integer"
+          },
+          {
+            "name": "chave_execucao",
+            "type": "string"
+          },
+          {
+            "name": "vlr_saldo_empenho",
+            "type": "string"
+          },
+          {
+            "name": "data_operacao_abertura",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "transformed_nf_agencias",
+      "type": "table",
+      "path": "data/transformed_nf_agencias.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "csv": {
+          "delimiter": ";"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id_nota_fiscal",
+            "type": "integer"
+          },
+          {
+            "name": "num_nota_fiscal",
+            "type": "string"
+          },
+          {
+            "name": "empresa_contrato",
+            "type": "string"
+          },
+          {
+            "name": "cnpj",
+            "type": "string"
+          },
+          {
+            "name": "data_emissao_nf",
+            "type": "string"
+          },
+          {
+            "name": "data_entrada_nf",
+            "type": "string"
+          },
+          {
+            "name": "data_1_tramitacao",
+            "type": "string"
+          },
+          {
+            "name": "data_recebimento_nf",
+            "type": "string"
+          },
+          {
+            "name": "conferente_nf",
+            "type": "string"
+          },
+          {
+            "name": "campanha_nome",
+            "type": "string"
+          },
+          {
+            "name": "campanha_codigo",
+            "type": "integer"
+          },
+          {
+            "name": "campanha_codigo_created",
+            "type": "integer"
+          },
+          {
+            "name": "campanha_tipo",
+            "type": "string"
+          },
+          {
+            "name": "orgao_sigla_nome",
+            "type": "string"
+          },
+          {
+            "name": "empenho_abertura",
+            "type": "string"
+          },
+          {
+            "name": "status_nf",
+            "type": "string"
+          },
+          {
+            "name": "num_sei",
+            "type": "string"
+          },
+          {
+            "name": "num_documento",
+            "type": "any"
+          },
+          {
+            "name": "data_autorizacao",
+            "type": "string"
+          },
+          {
+            "name": "data_inicio_veiculacao",
+            "type": "any"
+          },
+          {
+            "name": "data_termino_veiculacao",
+            "type": "any"
+          },
+          {
+            "name": "cancelamento_nf",
+            "type": "string"
+          },
+          {
+            "name": "data_controle_interno",
+            "type": "string"
+          },
+          {
+            "name": "analista",
+            "type": "string"
+          },
+          {
+            "name": "%_reversao",
+            "type": "number"
+          },
+          {
+            "name": "item",
+            "type": "string"
+          },
+          {
+            "name": "vlr_agencia",
+            "type": "string"
+          },
+          {
+            "name": "vlr_comissao_agencia",
+            "type": "string"
+          },
+          {
+            "name": "data_limite_repasse",
+            "type": "string"
+          },
+          {
+            "name": "vlr_total_nf",
+            "type": "string"
+          },
+          {
+            "name": "vlr_total_inss",
+            "type": "string"
+          },
+          {
+            "name": "num_ordem_pgto_inss",
+            "type": "any"
+          },
+          {
+            "name": "vlr_ir_agencia",
+            "type": "string"
+          },
+          {
+            "name": "vlr_imposto_renda",
+            "type": "string"
+          },
+          {
+            "name": "num_ordem_pgto_ir",
+            "type": "any"
+          },
+          {
+            "name": "vlr_total_issqn",
+            "type": "string"
+          },
+          {
+            "name": "num_ordem_pgto_issqn",
+            "type": "number"
+          },
+          {
+            "name": "seq_liquidacao",
+            "type": "number"
+          },
+          {
+            "name": "data_liquidacao",
+            "type": "string"
+          },
+          {
+            "name": "vlr_liquidado",
+            "type": "string"
+          },
+          {
+            "name": "num_ordem_pgto",
+            "type": "number"
+          },
+          {
+            "name": "data_ordem_pgto",
+            "type": "string"
+          },
+          {
+            "name": "vlr_pago",
+            "type": "string"
+          },
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "num_contrato",
+            "type": "integer"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "num_empenho",
+            "type": "integer"
+          },
+          {
+            "name": "uo_sigla",
+            "type": "string"
+          },
+          {
+            "name": "orgao_nome",
+            "type": "string"
+          },
+          {
+            "name": "uo_cod",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "transformed_nf_fornecedores",
+      "type": "table",
+      "path": "data/transformed_nf_fornecedores.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "csv": {
+          "delimiter": ";"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id_nota_fiscal",
+            "type": "integer"
+          },
+          {
+            "name": "num_nota_fiscal",
+            "type": "string"
+          },
+          {
+            "name": "empresa_contrato",
+            "type": "string"
+          },
+          {
+            "name": "data_entrada_nf",
+            "type": "string"
+          },
+          {
+            "name": "data_emissao_nf",
+            "type": "string"
+          },
+          {
+            "name": "num_nf_fornecedor",
+            "type": "string"
+          },
+          {
+            "name": "fornecedor_nome",
+            "type": "string"
+          },
+          {
+            "name": "fornecedor_cnpj",
+            "type": "string"
+          },
+          {
+            "name": "data_emissao_nf_fornecedor",
+            "type": "string"
+          },
+          {
+            "name": "veiculo_midia",
+            "type": "string"
+          },
+          {
+            "name": "num_processo_sei",
+            "type": "string"
+          },
+          {
+            "name": "num_documento",
+            "type": "any"
+          },
+          {
+            "name": "data_autorizacao_veiculacao",
+            "type": "string"
+          },
+          {
+            "name": "data_inicio_veiculacao",
+            "type": "string"
+          },
+          {
+            "name": "data_termino_veiculacao",
+            "type": "string"
+          },
+          {
+            "name": "municipio_abrangencia",
+            "type": "string"
+          },
+          {
+            "name": "item",
+            "type": "string"
+          },
+          {
+            "name": "vlr_nf_agencia",
+            "type": "string"
+          },
+          {
+            "name": "vlr_desconto",
+            "type": "string"
+          },
+          {
+            "name": "vlr_issqn",
+            "type": "string"
+          },
+          {
+            "name": "vlr_inss",
+            "type": "string"
+          },
+          {
+            "name": "vlr_imposto_renda",
+            "type": "string"
+          },
+          {
+            "name": "data_ordem_pgto",
+            "type": "string"
+          },
+          {
+            "name": "data_limite_repasse",
+            "type": "string"
+          },
+          {
+            "name": "data_pgto_agencia_fornecedor",
+            "type": "string"
+          },
+          {
+            "name": "num_contrato",
+            "type": "integer"
+          },
+          {
+            "name": "empresa",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "transformed_relatorio_de_investimentos",
+      "type": "table",
+      "path": "data/transformed_relatorio_de_investimentos.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "csv": {
+          "delimiter": ";"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "pit",
+            "type": "string"
+          },
+          {
+            "name": "pi_pp",
+            "type": "integer"
+          },
+          {
+            "name": "plano_orcam",
+            "type": "string"
+          },
+          {
+            "name": "cliente",
+            "type": "string"
+          },
+          {
+            "name": "campanha_nome",
+            "type": "string"
+          },
+          {
+            "name": "campanha_codigo",
+            "type": "integer"
+          },
+          {
+            "name": "campanha_nome_agencias",
+            "type": "string"
+          },
+          {
+            "name": "empenho_abertura_agencias",
+            "type": "string"
+          },
+          {
+            "name": "num_empenho_empenho",
+            "type": "integer"
+          },
+          {
+            "name": "ano_empenho",
+            "type": "integer"
+          },
+          {
+            "name": "veiculo_fornecedor",
+            "type": "string"
+          },
+          {
+            "name": "cnpj",
+            "type": "string"
+          },
+          {
+            "name": "meio",
+            "type": "string"
+          },
+          {
+            "name": "servico_especie",
+            "type": "string"
+          },
+          {
+            "name": "n_fat",
+            "type": "integer"
+          },
+          {
+            "name": "n_nfe",
+            "type": "string"
+          },
+          {
+            "name": "emissao_fat",
+            "type": "date"
+          },
+          {
+            "name": "competencia",
+            "type": "date"
+          },
+          {
+            "name": "vencto",
+            "type": "date"
+          },
+          {
+            "name": "vlr_bruto",
+            "type": "number"
+          },
+          {
+            "name": "vlr_liquido",
+            "type": "number"
+          },
+          {
+            "name": "vlr_receita",
+            "type": "number"
+          },
+          {
+            "name": "data_rec",
+            "type": "date"
+          },
+          {
+            "name": "empresa",
+            "type": "string"
+          },
+          {
+            "name": "num_contrato",
+            "type": "integer"
+          },
+          {
+            "name": "uo_cod",
+            "type": "integer"
+          },
+          {
+            "name": "uo_sigla",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "campanha_codigo_created",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
