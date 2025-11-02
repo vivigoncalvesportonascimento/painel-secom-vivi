@@ -6,7 +6,7 @@ homepage: https://github.com/vivigoncalvesportonascimento/painel-secom-vivi
 resources:
 - name: transformed_empenhos
   type: table
-  path: data/transformed_empenhos.csv
+  path: data\transformed_empenhos.csv
   scheme: file
   format: csv
   mediatype: text/csv
@@ -66,7 +66,7 @@ resources:
       type: string
 - name: transformed_nf_agencias
   type: table
-  path: data/transformed_nf_agencias.csv
+  path: data\transformed_nf_agencias.csv
   scheme: file
   format: csv
   mediatype: text/csv
@@ -178,7 +178,7 @@ resources:
       type: integer
 - name: transformed_nf_fornecedores
   type: table
-  path: data/transformed_nf_fornecedores.csv
+  path: data\transformed_nf_fornecedores.csv
   scheme: file
   format: csv
   mediatype: text/csv
@@ -244,7 +244,7 @@ resources:
       type: string
 - name: transformed_relatorio_de_investimentos
   type: table
-  path: data/transformed_relatorio_de_investimentos.csv
+  path: data\transformed_relatorio_de_investimentos.csv
   scheme: file
   format: csv
   mediatype: text/csv

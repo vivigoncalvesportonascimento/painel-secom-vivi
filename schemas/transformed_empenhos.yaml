@@ -2,24 +2,31 @@
     fields:
     - name: empresa_contrato
       type: string
+      description: Numero do contrato da agencia + Nome da Agencia vinculada aquele empenho.
     - name: campanha_nome
       type: string
+      description: Nome da campanha vinculada aquele empenho
     - name: campanha_codigo
       type: any
     - name: campanha_codigo_created
       type: integer
+      description: Código criado Numero do Empenho + Ano do Empenho + Código da Unidade Orçamentária
     - name: orgao_sigla_nome
       type: string
+      description: Sigla do orgão + Nome do orgão vinculada aquele empenho
     - name: campanha_tipo
       type: string
+      description: Tipo da campanha (Outros, Publicidade, Edital, Evento e não se aplica)
     - name: cancelada
       type: string
+      description: Indica se a campanha foi ou não cancelada.
     - name: num_empenho
       type: integer
     - name: ano
       type: integer
     - name: tipo_operacao
       type: string
+      description: Tipo de Empenho (Abertura, Reforço, Cancelamento, DEA)
     - name: numero_processo_sei
       type: string
     - name: historico
@@ -28,14 +35,17 @@
       type: string
     - name: data_operacao
       type: string
+      description: Data da operação de empenho de acordo com o tipo (abertura, reforço, cancelamento, DEA)
     - name: vlr_liquidado
       type: string
     - name: vlr_pago
       type: string
     - name: num_contrato
       type: integer
+      description: Número do contrato vinculado a agencia
     - name: empresa
       type: string
+      description: Nome da agencia
     - name: uo_sigla
       type: string
     - name: orgao_nome
@@ -44,7 +54,9 @@
       type: integer
     - name: chave_execucao
       type: string
+      description: Chave que combina Numero de Empenho + Ano de Empenho + Código da Unidade Orçamentária
     - name: vlr_saldo_empenho
       type: string
     - name: data_operacao_abertura
       type: string
+      description: Data da abertura do empenho
